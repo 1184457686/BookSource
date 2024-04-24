@@ -1,0 +1,39 @@
+{
+    "name": "笔趣阁",
+    "url": "www.bqgl.cc",
+    "version": 100,
+    "search": {
+        "url": "https://www.bqgl.cc/s?q=${key}",
+        "charset": "utf-8",
+        "list": "div.type_show>div.bookbox",
+        "name": "div.type_show>div.bookbox>div.bookinfo>h4",
+        "author": "div.type_show>div.bookbox>div.bookinfo>div.author",
+        "detail": "div.type_show>div.bookbox>div.bookinfo>div.uptime"
+    },
+    "detail": {
+        "name": "",
+        "author": "",
+        "cover": "",
+        "summary": "",
+        "status": "",
+        "update": "",
+        "lastChapter": "",
+        "catalog": ""
+    },
+    "catalog": {
+        "list": "",
+        "orderBy": 0,
+        "booklet": {
+            "name": "",
+            "list": ""
+        },
+        "name": "",
+        "chapter": "",
+        "page": ""
+    },
+    "chapter": {
+        "content": "",
+        "purify": [],
+        "page": ""
+    }
+}
